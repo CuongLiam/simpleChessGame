@@ -377,6 +377,9 @@ document.getElementById("flipBtn").addEventListener("click", () => {
   flipBoard();
 });
 document.getElementById("undoBtn").addEventListener("click", undo);
+document.getElementById("darkModeBtn").addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+});
 
 // init
 newGame();

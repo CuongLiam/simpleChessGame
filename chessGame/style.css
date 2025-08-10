@@ -134,3 +134,29 @@ button.secondary {
     max-height: 560px;
   }
 }
+
+/* dark mode */
+body.dark-mode {
+  background: #18181b;
+}
+
+body.dark-mode .panel {
+  background: #23232a;
+  color: #f1f5f9;
+}
+
+body.dark-mode .footer {
+  color: #cbd5e1;
+}
+
+body.dark-mode .board {
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.25);
+}
+
+body.dark-mode .square.light {
+  background: #444654;
+}
+
+body.dark-mode .square.dark {
+  background: #23232a;
+}
